@@ -3,8 +3,26 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
-import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
-import { Ecommerce, Orders, Calendar, Employees, Stacked, Pyramid, Customers, Kanban, Line, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor } from './pages';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Sidebar from './components/Sidebar';
+import ThemeSettings from './components/ThemeSettings';
+import Ecommerce from './pages/Ecommerce';
+import Orders from './pages/Orders';
+import Calendar from './pages/Calendar';
+import Employees from './pages/Employees';
+import Stacked from './pages/Charts/Stacked';
+import Pyramid from './pages/Charts/Pyramid';
+import Customers from './pages/Customers';
+import Kanban from './pages/Kanban';
+import Line from './pages/Charts/Line';
+import Area from './pages/Charts/Area';
+import Bar from './pages/Charts/Bar';
+import Pie from './pages/Charts/Pie';
+import Financial from './pages/Charts/Financial';
+import ColorPicker from './pages/ColorPicker';
+import ColorMapping from './pages/Charts/ColorMapping';
+import Editor from './pages/Editor';
 import './App.css';
 
 import { useStateContext } from './contexts/ContextProvider';
