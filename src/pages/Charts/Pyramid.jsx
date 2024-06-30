@@ -3,7 +3,7 @@ import { AccumulationChartComponent, AccumulationSeriesCollectionDirective, Accu
 
 import { PyramidData } from '../../data/dummy';
 import { useStateContext } from '../../contexts/ContextProvider';
-import { ChartsHeader } from '../../components';
+import ChartsHeader from '../../components/ChartsHeader.jsx';
 
 const Pyramid = () => {
   const { currentMode } = useStateContext();
